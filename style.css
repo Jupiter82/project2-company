@@ -1,0 +1,154 @@
+/*header and navbar css*/
+
+.navbar
+{
+    
+    background-color: #212741 !important;
+}
+
+#navbarSupportedContent a
+{
+    font-size: 1rem;
+    color: white;
+}
+
+.nav-link:hover
+{
+    color: orangered !important;
+    
+    
+}
+.navbar-nav
+
+{
+    width: 65%;
+    justify-content: space-evenly
+}
+.dropdown1 a
+{
+    
+    font-size: 14px !important;
+}
+
+.dropdown1
+{
+    min-width: 7.5rem;
+}
+
+.nav-link:focus
+{
+    color: orangered !important;
+    
+    
+}
+
+
+/*carousal*/
+.carousel-side-btm-1,.carousel-side-btm-2
+{
+    width: 4%;
+    
+}
+
+.h1-p1
+{
+   
+    top: 20%;
+    left:5%;
+    right: 50%;
+    width: 55%;
+
+}
+
+.h1-p1 h1
+
+{
+    text-align: left;
+    font-size: 4.5rem;
+    height: auto;
+    
+}
+
+.h1-p1 p
+{
+    text-align: left;
+    font-size: 1.2rem;
+    height: auto;
+}
+
+.h1-p1 .dec
+{
+    background-color: white;
+    width: 100px !important;
+    height: 10px !important;
+    border-radius: 15px;
+    margin:20px 0px;
+}
+
+.orange
+{
+    color: #ff511a;
+}
+.carousel-item
+{
+    cursor: pointer;
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+}
+a:hover
+{
+    color: white;
+}
+
+.button1
+{
+    float: left;
+    margin: 0px 10px;
+    width: 9rem;
+    height: 2.5rem;
+}
+
+.button2
+{
+    float: left;
+    margin: 0px 10px;
+    width: 9rem;
+    height: 2.5rem;
+    color:#ff511a ;
+    background-color: #ff511a;
+}
+
+/*services*/
+
+.contains
+{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.left-icon
+{
+    font-size: 3.5rem;
+    padding-left: 4rem;
+    color: #198754;
+}
+.ic:hover
+{
+    padding-top: 1.5rem;
+    
+}
+.CSS-Templates
+{
+    margin: 2rem 0rem;
+    padding: 1.5rem 0rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.45);
+    
+}
