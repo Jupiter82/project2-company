@@ -1,5 +1,7 @@
 /*header and navbar css*/
 
+
+
 .navbar
 {
     
@@ -8,7 +10,7 @@
 
 #navbarSupportedContent a
 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: white;
 }
 
@@ -24,6 +26,14 @@
     width: 65%;
     justify-content: space-evenly
 }
+
+.navbar-o
+{
+    
+    padding: 0;
+
+}
+
 .dropdown1 a
 {
     
@@ -89,6 +99,14 @@
 {
     color: #ff511a;
 }
+.green-c
+{
+    color:#198754;
+}
+.white-c
+{
+    color: #fff;
+}
 .carousel-item
 {
     cursor: pointer;
@@ -108,16 +126,16 @@ a:hover
 {
     float: left;
     margin: 0px 10px;
-    width: 9rem;
-    height: 2.5rem;
+    width: 10rem;
+    height: 3rem;
 }
 
 .button2
 {
     float: left;
     margin: 0px 10px;
-    width: 9rem;
-    height: 2.5rem;
+    width: 10rem;
+    height: 3rem;
     color:#ff511a ;
     background-color: #ff511a;
 }
@@ -152,3 +170,94 @@ a:hover
     -moz-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.45);
     
 }
+
+/*business and solution*/
+
+.busi-sol-row
+{
+    flex-direction: row;
+    align-items: center;
+    background-image:url("./images/cta-bg.jpg");
+    height: 15rem;
+}
+.bus-button
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bus-font
+{
+   font-size: 3rem;
+}
+
+/* section:about */
+
+.para-about
+{
+    
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+.h-about
+{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.about-r-left
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-button
+{
+
+    display:flex;
+    justify-content:space-evenly;
+    width: 100%;
+    flex-direction: row;
+    
+}
+
+.ab-btn
+{
+    margin: 0px 15px;
+    width: 12rem;
+    height: 3.5rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.39);
+    border: none;
+}
+
+.table
+{
+    border-collapse: inherit;
+}
+.h-right
+{
+    font-weight: 700;
+}
+.para-right
+{
+    
+    font-weight: 500;
+    width: 70%;
+}
+
+tr 
+{
+    line-height: 3rem;
+    min-height: 1rem;
+    height: 1rem;
+ }
+ .about-table
+ {
+     padding-left: 5.5rem;
+ }
