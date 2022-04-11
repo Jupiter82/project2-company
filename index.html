@@ -8,6 +8,14 @@
 
   <link rel="stylesheet" href="fontawesome/css/all.css" />
   <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <link rel="stylesheet" href="./owlCarousel/css/owl.carousel.css">
+  <link rel="stylesheet" href="./owlCarousel/css/owl.carousel.min.css"> -->
   <link rel="stylesheet" href="style.css" />
   <title>Document</title>
 </head>
@@ -67,7 +75,7 @@
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Testimonials</a>
+                  <a class="nav-link" href="#Testimonials">Testimonials</a>
                 </li>
                 <li class="nav-item">
                   <a class="btn btn-success" href="#" role="button">Contact Support</a>
@@ -304,7 +312,8 @@
         <div class="col-ml-6 col-lg-6 col-sm-12">
           <h1 class="text-center font-weight-bold bus-font"><span class="white-c">Business</span> <span
               class="green-c">Solution</span> <span class="white-c">and</span> <br> <span class="orange">Crypto</span>
-            <span class="white-c">Investment</span></h1>
+            <span class="white-c">Investment</span>
+          </h1>
         </div>
 
         <div class="col-ml-6 col-lg-6 col-sm-12">
@@ -333,6 +342,9 @@
   <section id="about">
     <br>
     <br>
+    <br>
+    <br>
+
 
     <div>
       <p class="text-center para-about"><span class="orange">ABOUT US</span></p>
@@ -352,7 +364,7 @@
           </div>
           <br>
           <br>
-          
+
           <div class="container">
             <div class="about-table">
               <table class="table">
@@ -406,43 +418,352 @@
       <div class="col-md-4 col-lg-4 col-sm-12">
         <div class="container">
           <div class="about-r-right">
-          <h4 class="h-right" >Please tell us about your idea <br>and how you want it to be</h4>
-          <br>
-          <br>
-          <p class="para-right">You are allowed to use this template for your websites. You are NOT allowed to redistribute the template
-            ZIP file on any other template websites.
+            <h4 class="h-right">Please tell us about your idea <br>and how you want it to be</h4>
+            <br>
+            <br>
+            <p class="para-right">You are allowed to use this template for your websites. You are NOT allowed to
+              redistribute the template
+              ZIP file on any other template websites.
+              <br>
+              <br>
+
+              Thank you for downloading and using our templates. Please tell your friends about our website
+            </p>
             <br>
             <br>
 
-            Thank you for downloading and using our templates. Please tell your friends about our website</p>
-            <br>
-            <br>
+            <div class="abt-btn">
+              <button class="btn btn-success button1">
+                <a href="#">Discover More</a>
+              </button>
+              <br>
+              <br>
 
-          <div class="abt-btn">
-            <button class="btn btn-success button1">
-              <a href="#">Discover More</a>
-            </button>
+            </div>
             <br>
             <br>
 
           </div>
-          <br>
-          <br>
-
         </div>
-      </div>
-        
+
       </div>
     </div>
 
   </section>
+  <br>
+  <br>
+  <br><br>
+  <br>
+
 
   <section id="financial-form">
+    <div class="container-fluid ">
+      <div class="row">
+
+        <div class="col-md-7 col-lg-7 col-sm-12 row-right-p1">
+          <div class="img-cont">
+            <img class="" src="./images/calculator-image.png" alt="" srcset="">
+          </div>
+
+
+        </div>
+
+        <div class="col-md-5 col-lg-5 col-sm-12">
+          <div class="container">
+            <br>
+            <br>
+
+            <div class="heading-form">
+              <h5><span class="orange">Your Freedom</span></h5>
+              <h1 class="text-white">Get A Financial Plan</h1>
+            </div>
+            <br>
+            <br>
+
+
+
+            <form>
+              <div class="form row">
+                <div class="form-group col-md-6">
+                  <label for="formgroupinput">Your Name</label>
+                  <input type="text" class="form-control" id="formgroupinput">
+
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Your Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+              </div>
+              <br>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="inputsubject">
+
+
+              </div>
+              <br>
+
+              <div class="form-group">
+                <label for="yourreason">Your Reason</label>
+                <select class="form-control" id="yourreason">
+                  <option class="text-white">Choose an Option</option>
+                  <option class="text-white">Online Banking</option>
+                  <option class="text-white">Finanial Control</option>
+                  <option class="text-white">Yearly Profit</option>
+                  <option class="text-white">Crypto Investment</option>
+                </select>
+              </div>
+              <br>
+
+
+              <div class="submit-btm">
+                <button type="submit" class="btn button3 text-white">Submit Now</button>
+
+              </div>
+              <br>
+              <br>
+              <br>
+
+
+
+            </form>
+            <br>
+            <br>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+
 
   </section>
 
-  <script src="./fontawesome/js/all.js"></script>
-  <script src="./bootstrap/js/bootstrap.js"></script>
+
+
+  <section id="Testimonials">
+    <div class="container ">
+      <div>
+        <br>
+        <h5 class="testimonials-h1 text-center"><span class="orange"><br> <br> <br>Testimonials</span></h5>
+        <h1 class="testimonials-h2 text-center">What They Say</h1>
+      </div>
+    </div>
+    <br>
+    <br>
+
+
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <div class="container test-o">
+          <div class="row test-row">
+            <div class="col-md-8 col-lg-8 col-sm-12">
+              <i class="fa-solid fa-quote-left icon-test"></i>
+              <br>
+
+              <p> <br>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quam consequuntur repellendus
+                veritatis
+                suscipit explicabo cupiditate delectus in hic dolores?"</p>
+              <h4>George Lopez</h4>
+              <h6 class="text-success">Crypto Manager</h6>
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <img src="./images/testimonials-01.jpg" alt="" srcset="">
+
+            </div>
+
+
+          </div>
+          <br>
+          <br>
+          <br>
+        </div>
+
+      </div>
+
+
+      <div class="item">
+        <div class="container test-o">
+          <div class="row test-row">
+            <div class="col-md-8 col-lg-8 col-sm-12">
+              <i class="fa-solid fa-quote-left icon-test"></i>
+              <br>
+
+              <p> <br>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quam consequuntur repellendus
+                veritatis
+                suscipit explicabo cupiditate delectus in hic dolores?"</p>
+              <h4>Andrew Garfield</h4>
+              <h6 class="text-success">CEO of Mexant</h6>
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <img src="./images/testimonials-01.jpg" alt="" srcset="">
+
+            </div>
+
+
+          </div>
+          <br>
+          <br>
+        </div>
+
+      </div>
+
+
+      <div class="item">
+        <div class="container test-o">
+          <div class="row test-row">
+            <div class="col-md-8 col-lg-8 col-sm-12">
+              <i class="fa-solid fa-quote-left icon-test"></i>
+              <br>
+
+              <p> <br> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quam consequuntur repellendus
+                veritatis
+                suscipit explicabo cupiditate delectus in hic dolores?"</p>
+              <h4>David Eingenberg</h4>
+              <h6 class="text-success">CTO of Mexant</h6>
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <img src="./images/testimonials-01.jpg" alt="" srcset="">
+
+            </div>
+
+
+          </div>
+          <br>
+          <br>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+
+  </section>
+  <br>
+  <br>
+
+
+  <footer>
+    <br>
+    <br>
+
+    <div class="container-fluid footer-company">
+      <div class="row">
+        <div class="col-md-2 col-lg-2 ">
+          <img class="fot-logo" src="./images/logo.png" alt="" srcset="">
+
+        </div>
+        <div class="col-md-2 col-lg-2 ">
+          <img class="fot-logo" src="./images/logo.png" alt="" srcset="">
+
+        </div>
+        <div class="col-md-2 col-lg-2 ">
+          <img class="fot-logo" src="./images/logo.png" alt="" srcset="">
+
+        </div>
+        <div class="col-md-2 col-lg-2 ">
+          <img class="fot-logo" src="./images/logo.png" alt="" srcset="">
+
+        </div>
+        <div class="col-md-2 col-lg-2 ">
+          <img class="fot-logo" src="./images/logo.png" alt="" srcset="">
+
+        </div>
+        <div class="col-md-2 col-lg-2 ">
+          <img class="fot-logo" src="./images/logo.png" alt="" srcset="">
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container-fluid footer-company-2">
+      <p class="text-center text-white footer-p">Copyright © 2022 Mexant Co., Ltd. All Rights Reserved.
+        <br>
+        Designed by <span class="orange designer">Jupiter Bade</span> </p>
+    </div>
+
+
+
+  </footer>
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
+
+
+
+
+<!-- <script src="./owlCarousel/jquery.min.js"></script> -->
+<script src="./fontawesome/js/all.js"></script>
+<script src="./bootstrap/js/bootstrap.js"></script>
+<!-- <script src="./owlCarousel/js/owl.carousel.js"></script> -->
+<!-- <script src="./owlCarousel/js/owl.carousel.min.js"></script> -->
+
+
+<script type="text/javascript">
+  // $('.owl-carousel').owlCarousel({
+  //   loop: true,
+  //   margin: 20,
+  //   autoplay: false,
+  //   autoplayTimeout: 3000,
+  //   nav: true,
+  //   dots: true,
+  //   responsive: {
+  //     0: {
+  //       items: 1
+  //     },
+  //     600: {
+  //       items: 1
+  //     },
+  //     1000: {
+  //       items: 1
+  //     },
+  //     1400: {
+  //       items: 2
+  //     }
+  //   }
+  // })
+
+  $('.owl-carousel').owlCarousel({
+    loop: false,
+    margin: 10,
+    nav: false,
+    dots: true,
+    // autoplay:false,
+    // autoplayTimeout:6000,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 1
+      },
+      1000: {
+        items: 1
+      }
+    }
+  })
+</script>
 
 </html>
